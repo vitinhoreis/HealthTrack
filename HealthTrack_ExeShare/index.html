@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>ExeShare-Entrar</title>
+
+        <!-- inclusão da página de estilo style.css -->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- inclusão da página de estilo grid.css -->
+        <link rel="stylesheet" href="./css/grid.css">
+        <!-- inclusão da página de estilo css do Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+        <!-- Inclusão ao suporte de ícones do Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+    </head>
+    <body class="fundo_branco_fumaca">
+        <!-- Linhas 24-141 elementos dispostos sob a div com classe container -->
+        <div id="index" class="container">
+            <!-- Linhas 26-32 cabeçalho da pág -->
+            <header>
+                <!-- Linhas 28-32 adicionando o logo do App -->
+                <div id="logo">
+                    
+                    <img src="./images/logo1_exesharePNG.png" alt="Logo ExeShare">
+
+                </div>
+                
+            </header>
+            <!-- Linhas 36-139 corpo principal da pág, contendo formulário -->
+            <main>
+
+                <div>
+                    <!-- Linhas 40-52 adicionando texto 'Entrar' com classes de alinhamento do bootstrap -->
+                    <div class="row">
+
+                        <aside class="col-md-4"></aside>
+
+                        <div class="col-md-4">
+
+                            <h2 class="letras">Entrar</h2>
+
+                        </div>
+
+                        <section class="col-md-4"></section>
+
+                    </div>
+                    <!-- Linhas 54-136 formulário de Login  -->
+                    <form>
+                        <!-- Linhas 56-74 adicionando caixa de entrada para Email -->
+                        <div class="row">
+
+                            <aside class="col-md-4"></aside>
+
+                            <div class="col-md-4">
+
+                                <div class="form-group">
+
+                                    <label for="email" class="letras">Email: </label>
+
+                                    <input type="email" class="form-control" id="email" placeholder="Digite o email">
+
+                                </div>
+
+                            </div>
+
+                            <section class="col-md-4"></section>
+
+                        </div>
+                        <!-- Linhas 76-94 adicionando caixa de entrada para Senha -->
+                        <div class="row">
+
+                            <aside class="col-md-4"></aside>
+
+                            <div class="col-md-4">
+
+                                <div class="form-group">
+
+                                    <label for="pwd" class="letras">Senha: </label>
+
+                                    <input type="password" class="form-control" id="pwd" placeholder="Digite a senha"> 
+
+                                </div>
+
+                            </div>
+
+                            <section class="col-md-4"></section>
+
+                        </div>
+                        <!-- Linhas 96-120 adicionando link para Cadastro e checkbox para lembrar de login -->
+                        <div class="row">
+
+                            <aside class="col-md-4"></aside>
+
+                            <div class="col-md-2">
+
+                                <p class="letras">
+
+                                    Novo aqui?
+
+                                    <a href="./cadastrar.html">Cadastre-se</a>
+
+                                </p>
+
+                            </div>
+                            
+                            <div class="col-md-2">
+
+                                <label><input type="checkbox" class="letras"> Lembre-me</label>
+
+                            </div>
+
+                            <section class="col-md-4"></section>   
+
+                        </div>
+                        <!-- Linhas 122-134 adicionando botão de envio do login -->
+                        <div class="row">
+
+                            <aside class="col-md-4"></aside>
+
+                            <div class="col-md-4">
+
+                                <a class="btn btn-primary" href="./feed.html" role="button" type="submit" >Entrar</a>
+
+                            </div>
+
+                            <section class="col-md-4"></section>  
+
+                        </div>
+    
+                    </form>
+    
+                </div>
+
+            </main>  
+
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"></script>
+
+    </body>
+</html>

@@ -1,0 +1,241 @@
+.fundo_branco_fumaca{
+    /* background-color: rgba(235, 235, 235, 0.583); */
+    background-color:whitesmoke;
+}
+
+.position_login{
+    position: static;
+    bottom: 400px;
+}
+
+.letras{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.letra_exeshare{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#logo img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#index header{
+    height: 40vh;
+    /* background-color: burlywood; */
+}
+
+#index main{
+    height: 60vh;
+    /* background-color: cornsilk; */
+}
+
+#feed header{
+
+    background-color: whitesmoke;
+    height: 6vh;
+}
+
+#feed main{
+
+    background-color: whitesmoke;
+    height: 84vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#feed footer{
+
+    background-color: whitesmoke;
+    height: 10vh;
+}
+
+.text_center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+#iplus i{
+    font-size: 30px;
+    position: fixed;
+    right: 540px;
+}
+
+#iheart i{
+    font-size: 30px;
+    position:fixed;
+    right: 460px;
+}
+
+#imessage i{
+    font-size: 30px;
+    position: fixed;
+    right: 380px; 
+}
+
+#itimeline i{
+    font-size: 50px;
+    position: fixed;
+    left: 550px;
+    color: black;
+}
+
+#iperfil i{
+    font-size: 50px;
+    position: fixed;
+    right: 550px;
+    color: black;
+}
+
+#iexercicio img{
+    width: 70px;
+    position: fixed;
+    right: 925px;
+    bottom: 25px;
+    color: black;
+}
+
+.foto_perfil{
+    width: 80px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+
+}
+
+.username{
+    font-weight: bold;
+}
+
+.post{
+    height: 80vh;
+}
+
+.imgpubli{
+    width: 1300px;
+    height: 600px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#ipostopc i{
+    font-size: 40px;
+}
+
+#ilike i{
+    font-size: 30px;
+    /* position:fixed;
+    left: 350px; */
+}
+
+#icomment i{
+    font-size: 30px;
+    /* position:fixed;
+    left: 450px; */
+}
+
+#ishare i{
+    font-size: 30px;
+    /* position:fixed;
+    left: 550px; */
+}
+
+#isave i{
+    font-size: 30px;
+}
+
+#cabexer h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#listaexe header{
+    background-color: whitesmoke;
+    height: 8vh;
+}
+
+#listaexe main{
+    background-color: whitesmoke;
+    height: 82vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#listaexe footer{
+    background-color: whitesmoke;
+    height: 10vh;
+}
+
+#imenu i{
+    font-size: 50px;
+}
+
+#isearch i{
+    font-size: 40px;
+}
+
+.item_exeT{
+    height: 20.5vh;
+    background-color: paleturquoise;
+}
+
+.item_exeW{
+    height: 20.5vh;
+    background-color: whitesmoke;
+}
+
+.alt_min_item_exeT{
+    height: 5vh;
+    background-color: paleturquoise;
+}
+
+.alt_min_item_exeW{
+    height: 5vh;
+    background-color: whitesmoke;
+}
+
+#isetaright i{
+    font-size: 50px;
+    color: black;
+}
+
+#iadexe i{
+    font-size: 80px;
+    overflow-block: unset;
+    /* position: fixed;
+    right: 350px;
+    bottom: 150px; */
+
+}
+
+#isetaleft i{
+    font-size: 40px;
+    color: black;
+}
+
+#imgexe img{
+    width: 200px;
+}
+
+#exercicio header{
+    background-color: whitesmoke;
+    height: 25vh;
+}
+
+#itimer i{
+    font-size: 100px;
+}
+
+
+.alt_30vh{
+    height: 30vh;
+}
+
+#exercicio h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:oblique;
+}
