@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F953ABE-56F1-E492-1204-84F43F5B9DE6" name="T_ATIVIDADES">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>851FA441-AFC2-7BD6-9A7E-6D241CB78A38</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_atividade" id="9ADBBE89-5CD1-2814-1370-83FE78C919A2">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>2B1E504E-119B-486C-44C2-9A2B3F47F71B</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_atividade" id="CDE7D9A3-9FE2-C459-55CC-F515B512F2EA">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>F0D521D3-C6FC-0DD8-4E00-5D24CF80FBBE</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="at_historico" id="0559A0CC-3A0A-D4DF-C3C6-72D48B03BB14">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>78663301-F594-73CE-F2FD-DA06EE3A4E56</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_usuário" id="81AC0835-A089-A3AB-5916-EC420FB4B2E1">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:28:20 UTC</createdTime>
+<generatorID>EF878EF0-B983-747F-6873-D16DBAC57D38</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20EEBE67-3355-2BBA-71CF-3489E1F51225" referredColumn="A858D455-D847-99A0-56A5-814208DE3083"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5255B25-1F92-EA7E-A5B3-D996C1076876" name="T_ATIVIDADES_PK">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>6F8DF661-0B4D-7F86-29A9-CDB3952F5AF1</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ADBBE89-5CD1-2814-1370-83FE78C919A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EEFFA2A-2E46-DF53-E829-FC9AD3227110" name="T_ATIVIDADES_T_PERFIL_FK">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>275FEF72-5B9F-ABB0-6C90-9D8A89805C40</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81AC0835-A089-A3AB-5916-EC420FB4B2E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

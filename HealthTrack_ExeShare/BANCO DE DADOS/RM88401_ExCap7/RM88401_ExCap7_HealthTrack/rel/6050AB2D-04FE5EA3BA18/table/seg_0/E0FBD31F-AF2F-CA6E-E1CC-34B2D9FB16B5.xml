@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0FBD31F-AF2F-CA6E-E1CC-34B2D9FB16B5" name="T_USUARIO">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>8C44678C-BEC3-53FF-1781-9132E3A29479</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_usuário" id="49C2325B-3F8B-61A3-B04C-897DA36F6941">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>9ECB8C4D-1D5A-BE1A-0D75-9506659B8AD2</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_usuário" id="991C791A-77CF-94DC-14B2-62A334852622">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>8EAF8E06-A8B8-AA3C-5CFD-B274EE0FE22E</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="E21ED30F-1DA1-5352-4C5B-5F16C171114F">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>A33B541E-0F27-18D3-6CEE-8F1BC97AA396</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ed_email" id="43371CA5-1934-2DB8-4F80-1A629016DA50">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>7DABA244-4FE9-713B-B096-26A2BB3D7B86</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BEBF5AE2-9D4A-079B-0B72-BC4BAE3C21F2" name="T_USUARIO_PK">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>C3B29DD9-A168-79CA-E981-1FCD1A5CFFD3</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49C2325B-3F8B-61A3-B04C-897DA36F6941"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

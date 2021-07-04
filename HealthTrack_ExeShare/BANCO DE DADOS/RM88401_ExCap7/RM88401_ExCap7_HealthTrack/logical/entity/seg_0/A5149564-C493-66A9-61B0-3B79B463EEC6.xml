@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5149564-C493-66A9-61B0-3B79B463EEC6" name="T_LEITURA">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-15 15:47:48 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_livro" id="E4605E15-F73D-1CF4-A61B-5EBE94C27A9B">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-15 15:48:16 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_livro" id="0C09A11C-905E-6B0B-2A17-46D217BB4D3D">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-15 15:55:24 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio_leitura" id="97EF8D19-437A-0312-DE8A-E3BF8EB25F13">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-15 15:55:42 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_fim_leitura" id="193EBF0F-14A4-8FF6-7A75-14AE2FB3853A">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-15 15:56:47 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_atividade" id="6F6743AE-0670-83C8-905D-4D7C36770E50">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 22:16:05 UTC</createdTime>
+<generatorID>C309F601-F878-7AF5-B01C-5FDA1E875089</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<referedAttribute>2B1E504E-119B-486C-44C2-9A2B3F47F71B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="31B358AF-3882-FCD4-4104-F49B5A1D5AEC" name="T_LEITURA PK">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-15 15:57:18 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4605E15-F73D-1CF4-A61B-5EBE94C27A9B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

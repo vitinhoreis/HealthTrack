@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A13869F-75EF-E29B-FE34-63DD32C56466" name="T_LEITURA">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>A5149564-C493-66A9-61B0-3B79B463EEC6</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_livro" id="2CCDED23-4FAF-B239-3212-C855DCEA05AC">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>E4605E15-F73D-1CF4-A61B-5EBE94C27A9B</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_livro" id="0992BF84-5A2E-00B6-DC07-207EC86E6567">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>0C09A11C-905E-6B0B-2A17-46D217BB4D3D</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio_leitura" id="FE1A6399-3960-C2C9-0567-89A34AFBBB33">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>97EF8D19-437A-0312-DE8A-E3BF8EB25F13</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fim_leitura" id="AE31CFE7-0523-CFB7-123D-C66E60CE8ED3">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>193EBF0F-14A4-8FF6-7A75-14AE2FB3853A</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_ATIVIDADES_cd_atividade" id="CF412900-6AA7-19DE-C259-358E1B54A2D0">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>6F6743AE-0670-83C8-905D-4D7C36770E50</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62C771C1-7023-BC38-AA3B-A8549659CD3A" referredColumn="9ADBBE89-5CD1-2814-1370-83FE78C919A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F75E7FD2-C29F-26C0-7E84-7C851F4F146D" name="T_LEITURA_PK">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>31B358AF-3882-FCD4-4104-F49B5A1D5AEC</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CCDED23-4FAF-B239-3212-C855DCEA05AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A550848-CD8B-D1E7-787F-BDCBBA71AD99" name="T_LEITURA_T_ATIVIDADES_FK">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>C309F601-F878-7AF5-B01C-5FDA1E875089</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF412900-6AA7-19DE-C259-358E1B54A2D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

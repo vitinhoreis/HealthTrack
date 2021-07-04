@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="20EEBE67-3355-2BBA-71CF-3489E1F51225" containerWithKeyObject="0F953ABE-56F1-E492-1204-84F43F5B9DE6" localFKIndex="1EEFFA2A-2E46-DF53-E829-FC9AD3227110" name="T_ATIVIDADES_T_PERFIL_FK">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>275FEF72-5B9F-ABB0-6C90-9D8A89805C40</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<referredTableLongName>T_PERFIL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0525B8DE-0CA5-33EA-FB16-60AF3880BF2F</referredTableID>
+<keyObject>AB743DA8-B5E6-65B1-39D5-58F1F50AB7E9</keyObject>
+<referredKeyID>AB743DA8-B5E6-65B1-39D5-58F1F50AB7E9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>T_USUARIO_cd_usuário</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

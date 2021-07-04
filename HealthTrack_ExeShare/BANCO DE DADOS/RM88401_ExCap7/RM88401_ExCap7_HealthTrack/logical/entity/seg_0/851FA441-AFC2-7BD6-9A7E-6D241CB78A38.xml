@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="851FA441-AFC2-7BD6-9A7E-6D241CB78A38" name="T_ATIVIDADES">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-15 14:23:09 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_atividade" id="2B1E504E-119B-486C-44C2-9A2B3F47F71B">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-15 14:25:45 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_atividade" id="F0D521D3-C6FC-0DD8-4E00-5D24CF80FBBE">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-15 14:29:01 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="at_historico" id="78663301-F594-73CE-F2FD-DA06EE3A4E56">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-15 14:29:32 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F8DF661-0B4D-7F86-29A9-CDB3952F5AF1" name="T_ATIVIDADES PK">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-15 14:28:59 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2B1E504E-119B-486C-44C2-9A2B3F47F71B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

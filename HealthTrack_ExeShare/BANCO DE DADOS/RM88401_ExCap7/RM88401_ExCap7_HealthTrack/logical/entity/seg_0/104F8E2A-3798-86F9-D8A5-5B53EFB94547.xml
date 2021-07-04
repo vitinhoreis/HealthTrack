@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="104F8E2A-3798-86F9-D8A5-5B53EFB94547" name="T_FOTO">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 22:31:34 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_foto" id="6E72611E-4EB5-686C-03BA-AB1D11B8075A">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 22:31:45 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ft_descrição" id="D0E6F5E2-ED33-8535-13BA-FE7997B2E0C6">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 22:32:17 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ft_like" id="59115D7E-D143-BF76-FFDC-90F9F532001C">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 22:33:36 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ft_comentario" id="1B885412-E0B1-F88A-11EC-4D41D11BF97D">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 22:37:28 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F3466E7-87BD-8532-2BD0-821D4FAE6A5F" name="T_FOTO PK">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 22:33:32 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E72611E-4EB5-686C-03BA-AB1D11B8075A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

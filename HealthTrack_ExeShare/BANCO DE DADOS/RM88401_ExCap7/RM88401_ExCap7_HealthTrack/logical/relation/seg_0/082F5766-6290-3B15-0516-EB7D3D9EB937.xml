@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="postarv2" directorySegmentName="seg_0" id="082F5766-6290-3B15-0516-EB7D3D9EB937">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 22:46:05 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<sourcePk>D09F6F7E-9531-1230-CB19-86ADA7C8CE64</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5F088B44-C192-F427-89F3-F18DBA94E88A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>89528B0B-6F4A-A7D7-50ED-CA20945B9CAF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

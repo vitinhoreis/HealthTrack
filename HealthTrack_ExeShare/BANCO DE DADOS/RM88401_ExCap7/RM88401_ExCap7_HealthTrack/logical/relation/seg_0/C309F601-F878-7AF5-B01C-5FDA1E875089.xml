@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="conterv2" directorySegmentName="seg_0" id="C309F601-F878-7AF5-B01C-5FDA1E875089">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 22:16:05 UTC</createdTime>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<engineerTo>
+<item key="6050AB2D-BF53-0960-367D-04FE5EA3BA18" value="true"/>
+</engineerTo>
+<sourcePk>6F8DF661-0B4D-7F86-29A9-CDB3952F5AF1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>851FA441-AFC2-7BD6-9A7E-6D241CB78A38</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A5149564-C493-66A9-61B0-3B79B463EEC6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

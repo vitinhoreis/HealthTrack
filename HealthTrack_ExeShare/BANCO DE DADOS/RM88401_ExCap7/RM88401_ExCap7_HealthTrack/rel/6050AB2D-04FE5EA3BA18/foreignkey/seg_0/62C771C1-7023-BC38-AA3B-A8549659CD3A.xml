@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="62C771C1-7023-BC38-AA3B-A8549659CD3A" containerWithKeyObject="8A13869F-75EF-E29B-FE34-63DD32C56466" localFKIndex="7A550848-CD8B-D1E7-787F-BDCBBA71AD99" name="T_LEITURA_T_ATIVIDADES_FK">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-17 23:25:09 UTC</createdTime>
+<generatorID>C309F601-F878-7AF5-B01C-5FDA1E875089</generatorID>
+<ownerDesignName>RM88401_ExCap7_HealthTrack</ownerDesignName>
+<referredTableLongName>T_ATIVIDADES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0F953ABE-56F1-E492-1204-84F43F5B9DE6</referredTableID>
+<keyObject>E5255B25-1F92-EA7E-A5B3-D996C1076876</keyObject>
+<referredKeyID>E5255B25-1F92-EA7E-A5B3-D996C1076876</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_atividade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

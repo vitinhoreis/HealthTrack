@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="6050AB2D-BF53-0960-367D-04FE5EA3BA18" mainViewID="049AF155-EF10-ED11-09DC-77DFBA35C1F5">
+<createdBy>PC</createdBy>
+<createdTime>2021-05-15 13:35:17 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
