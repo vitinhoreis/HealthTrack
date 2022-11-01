@@ -6,7 +6,7 @@
 
 ### Descrição do projeto:
 
-    O projeto Health Track é um trabalho acadêmico desenvolvido pelos alunos de 
+        O projeto Health Track é um trabalho acadêmico desenvolvido pelos alunos de 
     Análise e Desenvolvimento de Sistemas da Fiap, que nos permite desenvolver todos
     os processos da construção de um sistema, desde a análise de requisitos, modelagem
     do banco de dados, construção de protótipos, elaboração das documentações, 
